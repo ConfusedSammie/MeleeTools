@@ -1,0 +1,85 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+    background-color: #4CAF50;
+    margin: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Container for the Tables */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Table Container */
+.table-container {
+    width: 45%;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Heading Style */
+h3 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+}
+
+td {
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+/* Alternating Row Colors */
+tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+/* Hover Effect */
+tr:hover td {
+    background-color: #e0f7fa;
+}
+
+/* No Data Message Styling */
+.no-data {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    padding: 20px;
+}
